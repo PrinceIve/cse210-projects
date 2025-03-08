@@ -33,7 +33,7 @@ class Program
         
         foreach (int numb in numbers)
         {
-            sum += numb;  // Add each number to sum
+            sum += numb;  
         }
         Console.WriteLine("The sum is: " + sum);
         
