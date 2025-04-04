@@ -12,4 +12,8 @@ public class WritingAssignment : Assignment
     {
         return $"{_title} by {GetStudentName()}";
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 9a7f840fb4c45f45f87ad3cc060ae2b0a2c4b0fa
