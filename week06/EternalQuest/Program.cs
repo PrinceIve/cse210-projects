@@ -70,3 +70,10 @@ public class Program
         }
     }
 }
+
+// Exceeded requirements by adding a creative ranking system based on points:
+// - The GetRank method now determines the user's rank based on total points accumulated.
+// - Introduced ranks such as "Master Achiever", "Goal Crusher", and "Goal Getter" to reflect different levels of achievement.
+// - Added an "Aspiring Achiever" rank to encourage early progress and reward users for their efforts as they start their journey.
+// - This gamification approach enhances user engagement by providing a clear sense of progression and rewards for goal completion.
+// - The ranking system makes the experience feel more interactive and dynamic, motivating users to aim for higher ranks and achieve more.

@@ -46,11 +46,12 @@ public class GoalManager
     }
 
     public string GetRank(int points)
-    {
-        if (points >= 1000) return "Master Achiever";
-        if (points >= 500) return "Goal Crusher";
-        if (points >= 250) return "Goal Getter";
-        if (points >= 100) return "Aspiring Achiever";
-        return "Goal Novice";
-    }
+{
+    if (points >= 1000) return "Master Achiever - Keep up the amazing work!";
+    if (points >= 500) return "Goal Crusher - You're crushing your goals!";
+    if (points >= 250) return "Goal Getter - Great progress!";
+    if (points >= 100) return "Aspiring Achiever - Keep pushing!";
+    return "Goal Novice - Start your journey!";
+}
+
 }
